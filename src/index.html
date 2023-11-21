@@ -1,0 +1,184 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GET Youtube Subscribers</title>
+    <style>
+         body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background: rgb(143, 143, 177);
+            flex-direction: column;
+            text-align: center;
+            justify-content: center;
+         }
+        
+         .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            background-color: url(  https://www.css-gradient.com/?c1=d4337a&c2=882997&gt=l&gd=dcc);
+            background: rgb(131, 91, 109);
+background: linear-gradient(45deg, rgb(216, 193, 203), rgb(110, 68, 117));
+        }
+
+      h1 {
+            
+            text-align: center;
+            margin-top: 5px;
+            color: #0c0c0c;
+            font-size: 36px;
+            white-space: nowrap;
+        }
+        button{
+            background-color: #26292c;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            padding: 10px 20px;
+            margin: 10px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        input[type="text"] {
+            width: 60%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #6754e5;
+            border-radius: 5px;
+        }
+
+        button[type="submit"] {
+            background-color: #28a745;
+            transition: background-color 0.3s;
+        }
+
+        button[type="submit"]:hover {
+            background-color: #218838;
+        }
+
+        .flex-container {
+            display: flex;
+            text-align: center;
+        }
+
+        .flex-container input {
+            margin-right: 10px;
+        }
+
+        .Subscribers {
+            color: #564045;
+            padding-left: 12rem;
+        }
+
+        b{
+          color: #f44e4e;
+         }
+      /* Additional styles for smaller screens */
+        @media screen and (max-width: 768px) {
+            .container {
+                padding: 20px;
+            }
+
+            h1 {
+                font-size: 24px;
+            }
+
+            input[type="text"] {
+                width: calc(100% - 20px);
+            }
+
+            .flex-container {
+                flex-direction: column;
+            }
+
+            .flex-container input {
+                margin: 10px 0;
+                width: 100%;
+            }
+        }  
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div>
+        <h1>GET <b>YOUTUBE</b> SUBSCRIBERS</h1>
+      </div>
+      <hr />
+        <h3>THE APIs PROVIDED BY THIS APPLICATION ARE FOLLOWING:</h3>
+        
+          <button id="subscriberButton" >Subscribers</button>
+          <button id="subscriberNameButton">Subscriber by Name</button>
+    
+       <div class="flex-container">
+            <input type="text" id="subscriberIdInput" placeholder="Enter ID">
+            <button id="subscriberIdButton">Subscriber by ID</button>
+        </div>
+        <h5><b> Demo id :- </b> ( 6547b2df161fdd266065e872 )</h5>
+        
+
+        
+          <button style="color: rgb(237, 232, 232); background-color: #0c0c0c;" id="api-docs" target="_blank">API_Doc</button>
+  </body>
+    
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        // Get a reference to the "Subscribers" button element
+        var subscribersButton = document.getElementById("subscriberButton");
+
+        // Get a reference to the "Subscriber by Name" button element
+        var subscriberNameButton = document.getElementById("subscriberNameButton");
+
+        // Get a reference to the "Subscriber by ID" button element
+        var subscriberIdButton = document.getElementById("subscriberIdButton");
+
+        // Get a reference to the "API Docs" button element with the correct id
+        var apiDocsButton = document.getElementById("api-docs");
+
+
+        // Add a click event listener to the "Subscribers" button
+        subscribersButton.addEventListener("click", function() {
+            // Redirect to "/subscribers"
+            window.location.href = "https://youtube-subscribers-a9z5.onrender.com/subscribers";
+        });
+
+        // Add a click event listener to the "Subscriber by Name" button
+        subscriberNameButton.addEventListener("click", function() {
+            // Redirect to "/subscribers/name"
+            window.location.href = "https://youtube-subscribers-a9z5.onrender.com/subscribers/name";
+        });
+
+        // Add a click event listener to the "Subscriber by ID" button
+        subscriberIdButton.addEventListener("click", function() {
+            // Get the value from the input field
+            var specificId = document.getElementById("subscriberIdInput").value;
+
+            // Check if the input is empty
+            if (specificId === "") {
+                alert("Please enter an ID.");
+            } else {
+                // Redirect to "/subscribers/:id" with the specific ID
+                window.location.href = "https://youtube-subscribers-a9z5.onrender.com/subscribers/" + specificId;
+            }
+        });
+         // Add a click event listener to the "API Docs" button
+         apiDocsButton.addEventListener("click", function() {
+// Open the API documentation link in a new tab
+window.open("https://youtube-subscribers-a9z5.onrender.com/api-docs/", "_blank");
+});
+});
+
+</script>
+  </html>
