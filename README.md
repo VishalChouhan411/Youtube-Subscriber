@@ -16,10 +16,7 @@ GET YOUTUBE SUBSCRIBERS
 - [Prerequisites ](#prerequisites)
 - [Installation & Run](#installation-and-run)
 - [API Reference ](#api-reference)
-- [Contribute ](#contribute)
-- [Contributors ](#contributors)
 - [License ](#license)
-- [Contact ](#contact)
 - [Acknowledgments ](#acknowledgments)
 
 
@@ -53,12 +50,11 @@ To run this project locally, make sure you have the following installed:
 ## Installation and Run
 1. Clone the repository from GitHub:
     ```
-     git clone https://github.com/Abhi1o/GET-YOUTUBE-SUBSCRIBERS
+     git clone https://github.com/VishalChouhan411/Youtube-Subscriber
     ```
 2. Redirect to the project folder:
     ```
-     cd GET-YOUTUBE-SUBSCRIBERS
-    ```
+     cd Youtube-Subscribers    ```
 3. Install the required dependencies:
     ```
      npm install
@@ -90,19 +86,8 @@ Following API endpoints for retrieving subscribers information using the GET met
 - `/subscribers/names`: Obtain subscribers name along with the channel they are subscribed to.
 - `/subscribers/id`: Access subscriber information based on their ID.
 
-## Contribute
-Contributions are welcome! If you'd like to contribute, please follow our [Contribution Guidelines](CONTRIBUTING.md).
-
-## Contributors
-- Abhishek Kumar [GitHub](https://github.com/abhi1o) | [LinkedIn](https://linkedin.com/in/abhi--) | [YouTube](https://www.youtube.com/watch?v=1SHSj539rQg)
-- Aman Giri [GitHub](https://github.com/amangiri7) | [LinkedIn](https://www.linkedin.com/in/aman-giri-6b3a3b284/) | [YouTube](https://www.youtube.com/watch?v=Ur-M8QxRqQ8)
-- Damini Gadpal [GitHub](https://github.com/Daminigadpal) | [LinkedIn](https://www.linkedin.com/in/damini-gadpal-01996716b) | [YouTube](https://youtu.be/tzykJmtIHvg)
-
 ## License
 This project is Distributed under the ISC License. See [LICENSE](./LICENSE) for more information.
-
-## Contact
-If you have any questions or suggestions, feel free to reach out to us at [Gmail](https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSGLPhhCThjSQBxqqKCTksFHbgmPZGmrTXlskrtrXBgHxRqbmdRdzJJlNBtvTWsTLmjdVLbb).
 
 ## Acknowledgment
 We'd like to thank the open-source community and the creators of Node.js, Express, and MongoDB for their valuable contributions.
@@ -115,7 +100,7 @@ We would also like to thank the contributors to this project for their valuable 
 ## Happy Learning
 
 <p align="center">
-<a href="https://github.com/Abhi1o/get_youtube_subscribers" title="GET youtube subscriber projects">
+<a href="https://github.com/VishalChouhans/Youtube-Subscribers" title="GET youtube subscriber projects">
 <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white">
     
 </a>
